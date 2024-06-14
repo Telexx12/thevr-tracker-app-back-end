@@ -40,4 +40,9 @@ return [
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
         'redirect' => 'http://localhost:8081/auth/google/callback',
     ],
+    'twitch' => [
+        'client_id' => env('TWITCH_CLIENT_ID'),
+        'client_secret' => env('TWITCH_CLIENT_SECRET'),
+        'redirect' => 'http://localhost:8081/auth/twitch/callback',
+    ],
 ];
