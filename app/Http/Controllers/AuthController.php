@@ -29,4 +29,9 @@ public function google()
 
         dd($user);
     }
+
+    public function index()
+    {
+        return view('auth.login');
+    }
 }
